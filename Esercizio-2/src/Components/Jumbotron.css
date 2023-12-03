@@ -1,0 +1,35 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: cover;
+  height: 85vh;
+  gap: 10rem;
+}
+
+section>figure img {
+  width: 600px;
+  padding-bottom: 120px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #A11E77;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #d68cbf;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 110px;
+  gap: 0.5rem;
+}
